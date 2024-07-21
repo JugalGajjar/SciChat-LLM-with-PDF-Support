@@ -17,6 +17,7 @@ SciChat-LLM-with-PDF-Support is an advanced language model designed to facilitat
 Before you begin, ensure you have met the following requirements:
 
 - Python 3.7 or higher
+- Ollama and Mistral7b model
 - Required Python packages (listed in `requirements.txt`)
 - An environment capable of running large language models
 
@@ -33,13 +34,24 @@ Before you begin, ensure you have met the following requirements:
     pip install -r requirements.txt
     ```
 
+3. Download Ollama & Mistral:
+    ```sh
+    Website: https://ollama.com/download
+    ollama pull mistral:instruct
+    ```
+
 ### Usage
 
-1. Run the application:
+1. Run Ollama model:
+   ```sh
+    ollama run mistral:instruct
+    ```
+   
+2. Run the application:
     ```sh
     python app.py
     ```
 
-2. Upload a PDF document through the interface (optional).
+3. Upload a PDF document through the interface (optional).
 
-3. Start asking questions related to the content of the uploaded PDF or any general questions.
+4. Start asking questions related to the content of the uploaded PDF or any general questions.
