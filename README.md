@@ -1,6 +1,6 @@
 # SciChat-LLM-with-PDF-Support
 
-SciChat-LLM-with-PDF-Support is an advanced language model designed to facilitate scientific discussions by integrating support for PDF documents. This project leverages the capabilities of a large language model (LLM) to provide insightful and context-aware responses to queries related to scientific literature and general questions.
+SciChat-LLM-with-PDF-Support is an advanced language model designed to facilitate academic scientific discussions by integrating support for PDF documents. This project leverages the capabilities of a large language model (LLM) to provide insightful and context-aware responses to queries related to academic and scientific literature and general questions.
 
 ## Features
 
