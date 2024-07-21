@@ -1,0 +1,10 @@
+Flask
+transformers
+huggingface-hub
+sentence-transformers
+langchain
+langchain-core
+langchain-community
+langchain-cli
+langchain-text-splitters
+pinecone-client==2.2.4
