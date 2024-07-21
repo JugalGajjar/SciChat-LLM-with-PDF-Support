@@ -47,11 +47,13 @@ Before you begin, ensure you have met the following requirements:
     ollama run mistral:instruct
     ```
    
-2. Run the application:
+2. Add the pinecone API key and environment name in app.py
+   
+3. Run the application:
     ```sh
     python app.py
     ```
 
-3. Upload a PDF document through the interface (optional).
+4. Upload a PDF document through the interface (optional).
 
-4. Start asking questions related to the content of the uploaded PDF or any general questions.
+5. Start asking questions related to the content of the uploaded PDF or any general questions.
